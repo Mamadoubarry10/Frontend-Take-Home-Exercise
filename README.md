@@ -1,6 +1,6 @@
 # Frontend-Take-Home-Exercise
 
-For this execicise I was able to:
+For this exercise I was able to:
 
 1. Display a form with inputs for each field outlined above
 2. Allow a user to complete and submit the form
