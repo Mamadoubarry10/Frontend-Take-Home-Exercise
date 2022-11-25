@@ -9,7 +9,7 @@ For this execicise I was able to:
 
 ## Proccess:
 
-### First I did GET request to`https://frontend-take-home.fetchrewards.com/form` which returned a JSON body with the following format:
+#### First I did GET request to`https://frontend-take-home.fetchrewards.com/form` which returned a JSON body with the following format:
 
 ```
 {
@@ -29,7 +29,7 @@ For this execicise I was able to:
 
 ```
 
-### Once I was able to fetch the data, I created a ```renderAll``` function which takes in two parameters of occupations and states. Once that is done I created two helper function ```renderOccupations``` and ```renderStates``` to display the data in UI:
+#### Once I was able to fetch the data, I created a ```renderAll``` function which takes in two parameters of occupations and states. Once that is done I created two helper function ```renderOccupations``` and ```renderStates``` to display the data in UI:
 
 ```
 renderAll = (jobs, state) => { 
@@ -59,7 +59,7 @@ fetch(baseUrl)
   
   ```
 
-### Once the user is done completing the form and to POST the data to `https://frontend-take-home.fetchrewards.com/form`, I created a ```submitHandler``` to submit the data:
+#### Once the user is done completing the form and to POST the data to `https://frontend-take-home.fetchrewards.com/form`, I created a ```submitHandler``` to submit the data:
 
 ```
 ssubmitHandler = () => {
@@ -102,7 +102,7 @@ ssubmitHandler = () => {
 }
 ```
 
-### Once the POST is succesful, the user recieve a confirmation from the funtion ```completeForm```:
+#### Once the POST is succesful, the user recieve a confirmation from the funtion ```completeForm```:
 
 ```
 completeForm = () => {
@@ -112,7 +112,7 @@ completeForm = () => {
 ```
 
 
-## Application is hosted on Amazon S3 bucket, to view, click on the link:
+#### Application is hosted on Amazon S3 bucket, to view, click on the link:
 
 <http://front-end-exercise.s3-website.us-east-2.amazonaws.com/>
 
