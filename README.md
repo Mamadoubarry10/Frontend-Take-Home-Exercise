@@ -11,7 +11,8 @@ For this execicise I was able to:a
 
 ### First I did GET request to`https://frontend-take-home.fetchrewards.com/form` which returned a JSON body with the following format:
 
-```{
+```
+{
     "occupations": [
         "occupation1",
         "occupation2",
@@ -92,17 +93,20 @@ fetch(baseUrl)
         console.error('Error:', error);
       });
   })
-}```
+}
+```
 
 ### Once the POST is succesful, the user recieve a confirmation from the funtion ```completeForm```:
 
-```completeForm = () => {
+```
+completeForm = () => {
   addForm.remove
   document.querySelector('.parent').innerHTML = `<h1>Form submitted</h1>`
-}```
+}
+```
 
 
-## Application is hosted on Amazon S3 bucket, to view, click on the llink:
+## Application is hosted on Amazon S3 bucket, to view, click on the link:
 [link](http://front-end-exercise.s3-website.us-east-2.amazonaws.com/)
 
 
