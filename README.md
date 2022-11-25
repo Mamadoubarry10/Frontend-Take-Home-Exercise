@@ -1,6 +1,6 @@
 # Frontend-Take-Home-Exercise
 
-For this execicise I was able to:a
+For this execicise I was able to:
 
 1. Display a form with inputs for each field outlined above
 2. Allow a user to complete and submit the form
@@ -61,7 +61,8 @@ fetch(baseUrl)
 
 ### Once the user is done completing the form and to POST the data to `https://frontend-take-home.fetchrewards.com/form`, I created a ```submitHandler``` to submit the data:
 
-```submitHandler = () => {
+```
+ssubmitHandler = () => {
   addForm.addEventListener('submit', e => {
     e.preventDefault()
     const form = e.target
@@ -112,6 +113,7 @@ completeForm = () => {
 
 
 ## Application is hosted on Amazon S3 bucket, to view, click on the link:
-[link](http://front-end-exercise.s3-website.us-east-2.amazonaws.com/)
+
+<http://front-end-exercise.s3-website.us-east-2.amazonaws.com/>
 
 
