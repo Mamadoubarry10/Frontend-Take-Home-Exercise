@@ -25,11 +25,14 @@ For this execicise I was able to:a
         },
         ...
     ]
-}```
+}
 
-###Once I was able to fetch the data, I created a ```renderAll``` function which takes in two parameters of occupations and states. Once that is done I created two helper function ```renderOccupations``` and ```renderStates``` to display the data in UI:
+```
 
-```renderAll = (jobs, state) => { 
+### Once I was able to fetch the data, I created a ```renderAll``` function which takes in two parameters of occupations and states. Once that is done I created two helper function ```renderOccupations``` and ```renderStates``` to display the data in UI:
+
+```
+renderAll = (jobs, state) => { 
   renderOccupations(jobs)
   renderStates(state)
 }
@@ -52,7 +55,9 @@ renderStates = (states) => {
 
 fetch(baseUrl)
   .then((response) => response.json())
-  .then((data) => renderAll(data.occupations, data.states));```
+  .then((data) => renderAll(data.occupations, data.states));
+  
+  ```
 
 ### Once the user is done completing the form and to POST the data to `https://frontend-take-home.fetchrewards.com/form`, I created a ```submitHandler``` to submit the data:
 
